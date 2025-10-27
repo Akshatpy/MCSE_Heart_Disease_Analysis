@@ -1,15 +1,16 @@
-# OrangeMath — Heart Disease Analysis
+# Heart Disease Analysis
 
+Reference Kaggle Dataset : https://www.kaggle.com/datasets/ritwikb3/heart-disease-statlog
 Brief: A small analysis script that loads the "Heart_disease_statlog.csv" dataset, introduces and fills artificial missing values, generates descriptive statistics, visualizations, a normality check, a confidence interval and hypothesis test for cholesterol, and fits a simple linear regression model.
 
 Prerequisites
 - Python 3.8+
-- Recommended packages: pandas, numpy, matplotlib, seaborn, scipy, scikit-learn
+- Recommended packages: pandas, numpy, matplotlib, seaborn, scipy, scikit-learn [requirements.txt]
 
 Quick install
 - (optional) Create and activate a virtual environment
 - Install dependencies:
-  pip install pandas numpy matplotlib seaborn scipy scikit-learn
+  pip install -r requirements.txt 
 
 Project structure (relevant)
 - heart/main2.py        — main analysis script
